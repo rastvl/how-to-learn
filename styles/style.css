@@ -199,3 +199,43 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+.feynman {
+  margin: 100px auto 0;
+  height: 890px;
+  background: url("../images/feynman.png");
+  background-color: #f2f2f2;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  /*Схлопывание :(  Так и не понял что делать в таком случае*/
+  position: relative;
+  overflow: hidden;
+}
+
+.feynman__title {
+  margin: 100px auto 0;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+  width: 648px;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  margin: 70px 0 0;
+}
+
+.feynman__link {
+  text-decoration: none;
+  color: #2f80ed;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+}
