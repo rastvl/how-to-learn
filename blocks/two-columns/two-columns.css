@@ -1,0 +1,11 @@
+.two-columns {
+  /* box-sizing: border-box; */
+  /* padding: 100px 0; */
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  /* align-items: stretch; */
+  width: 80%;
+  min-width: 784px;
+  margin: 0 auto;
+}
