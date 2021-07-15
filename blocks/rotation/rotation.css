@@ -1,4 +1,4 @@
-@keyframes rotation {
+@keyframes rotate-block {
   from {
     transform: rotate(0deg);
   }
@@ -6,4 +6,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.rotation {
+  animation: rotate-block 20s linear infinite;
 }
